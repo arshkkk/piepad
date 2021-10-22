@@ -18,3 +18,9 @@
 .socialLogoItem:not(:last-child){
     margin-right: 0.5rem;
 }
+
+@media(max-width: 800px){
+    .footer{
+        padding: 1rem 2rem;
+    }
+}

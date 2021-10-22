@@ -57,10 +57,7 @@ export const Main = () => (
       </div>
     </div>
     <div style={{ display: "flex", justifyContent: "center" }}>
-      <img
-        src={PIEPAD}
-        style={{ width: "auto", height: "400px", margin: "0 auto" }}
-      />
+      <img src={PIEPAD} className={styles.ctaImage} />
     </div>
   </main>
 )

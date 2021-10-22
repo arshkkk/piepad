@@ -12,3 +12,9 @@
     height: 30px;
     margin-right: 5px;
 }
+
+@media(max-width: 800px) {
+    .nav{
+        padding: 1rem 2rem;
+    }
+}
