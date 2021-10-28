@@ -11,7 +11,7 @@ export default function Home() {
     const [loading, setLoading] = React.useState(true);
     React.useEffect(() => setTimeout(() => setLoading(false), 2000), []);
     return (
-        <div className={container}>
+        <div>
             <Head>
                 <title>Piepad</title>
                 <meta
@@ -29,6 +29,7 @@ export default function Home() {
                     transform: `scale(${loading ? 0 : 1})`,
                     transition: 'all 500ms ease-out',
                 }}
+                className={styles.container}
             >
                 <Header />
                 <Main />
