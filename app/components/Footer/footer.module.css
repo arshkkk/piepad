@@ -1,26 +1,30 @@
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 6rem;
-    color: white;
-    width: 100%;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+  color: white;
+  width: 100%;
 }
 
-.socialLogos{
-    display: flex;
+.socialLogos {
+  display: flex;
 }
 
-.socialLogoItem{
-    height: 2.5rem;
+.socialLogoItem {
+  height: 2.5rem;
 }
 
-.socialLogoItem:not(:last-child){
-    margin-right: 0.5rem;
+.socialLogoItem:not(:last-child) {
+  margin-right: 0.5rem;
 }
 
-@media(max-width: 800px){
-    .footer{
-        padding: 1rem 2rem;
-    }
+@media (max-width: 800px) {
+  .footer {
+    padding: 1rem 2rem;
+  }
+}
+
+.footerText {
+  font-weight: normal;
 }

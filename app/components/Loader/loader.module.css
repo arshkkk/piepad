@@ -1,0 +1,22 @@
+.loaderWrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loaderLogo {
+  height: 4rem;
+  width: 4rem;
+  animation: bounce 0.8s infinite alternate;
+}
+
+.loaderSvg {
+  height: 4rem;
+  width: 4rem;
+}

@@ -2,7 +2,7 @@ import styles from "./footer.module.css"
 
 export const Footer = () => (
   <footer className={styles.footer}>
-    <h3> &#169; 2021 PiePad</h3>
+    <h4 className={styles.footerText}> &#169; 2021 PiePad</h4>
     <div className={styles.socialLogos}>
       <img
         alt={"telegram"}

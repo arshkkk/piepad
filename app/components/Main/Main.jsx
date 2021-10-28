@@ -9,7 +9,11 @@ export const Main = () => (
         Get your slice of the pie on the sweetest IDO launchpad on the Ethereum
         network
       </h1>
-      <h2 className={""}>Website coming soon.</h2>
+      <h3 className={""}>
+        WPiepad is an IDO platform offering early access to a curated selection
+        of DeFi, NFT and Gaming projects. Piepad will also offer high yield
+        staking rewards for all staked $PIES. Website coming soon.
+      </h3>
       <div id="mc_embed_signup" className={styles.formWrapper}>
         <h3 className={""}>
           Stay up to date with upcoming website launch, private sales and IDO.
